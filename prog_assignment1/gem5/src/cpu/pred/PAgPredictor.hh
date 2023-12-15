@@ -61,7 +61,7 @@ class PAgPred : public BPredUnit
     unsigned gptableWidth;
 
     /** The array of counters. */
-    std::vector<SatCounter8> gptable;
+    std::vector<SatCounter64> gptable;
 
     /** The GHR mask */
     unsigned lhMask;

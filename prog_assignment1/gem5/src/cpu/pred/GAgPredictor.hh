@@ -51,7 +51,7 @@ private: //CP_CODE
   unsigned gptHeight;
 
   /** Array of counters that make up the local predictor. */
-  std::vector<SatCounter8> gpTable;
+  std::vector<SatCounter64> gpTable;
 
   /** The global history register. */
   unsigned long globalHistoryReg;
