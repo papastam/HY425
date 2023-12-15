@@ -15,7 +15,7 @@ GAgPred::GAgPred(const GAgPredParams &params)
       historySize(params.historySize),
       gptWidth(params.predSize),
       gptHeight(pow(2, historySize)),
-      gpTable(gptHeight, SatCounter8(gptWidth)),
+      gpTable(gptHeight, SatCounter64(gptWidth)),
       globalHistoryReg(0),
       ghrMask(pow(2, historySize) - 1)
 {
@@ -23,7 +23,7 @@ GAgPred::GAgPred(const GAgPredParams &params)
     fatal("Invalid global predictor size!\n");
   }
 
-  if (historySize<=0 || historySize>8) {
+  if (historySize<=0 || historySize>32) {
     fatal("Invalid history size!\n");
   }
 
@@ -69,7 +69,7 @@ bool GAgPred::lookup(ThreadID tid, Addr branch_addr, void *&bp_history) {
   uint8_t prediction = gpTable[history];
 
   // Then we return the prediction
-  return ((prediction << gptWidth - 1) >> gptWidth - 1) == 1;
+  return ((prediction << (gptWidth - 1)) >> (gptWidth - 1)) == 1;
 }
 
 // CP_CODE
@@ -103,7 +103,7 @@ void GAgPred::update(ThreadID tid, Addr branch_addr, bool taken,
   // inform("prediction: %d->%d\n", old_prediction, prediction);
 
   // Then we update the GPT
-  SatCounter8 new_prediction(prediction);
+  SatCounter64 new_prediction(prediction);
   gpTable[history] = new_prediction;
   
   // Update the GHR by shifting to the left AND 1taken 0not_taken

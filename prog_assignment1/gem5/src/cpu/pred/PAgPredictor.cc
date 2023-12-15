@@ -18,7 +18,7 @@ PAgPred::PAgPred(const PAgPredParams &params)
       lhtable(lhtableHeight, 0),
       gptableHeight(params.gtableHeight),
       gptableWidth(params.gpredSize),
-      gptable(gptableHeight, SatCounter8(gptableWidth)),
+      gptable(gptableHeight, SatCounter64(gptableWidth)),
       lhMask(lhtableHeight - 1),
       gptableMask(gptableHeight - 1) 
 {
@@ -26,7 +26,7 @@ PAgPred::PAgPred(const PAgPredParams &params)
         fatal("Invalid history size!\n");
     }
 
-    if(lhtableWidth<=0) {
+    if(lhtableWidth<=0 || lhtableWidth>32) {
         fatal("Invalid local history size!\n");
     }
 
@@ -94,7 +94,7 @@ PAgPred::lookup(ThreadID tid, Addr branch_addr, void * &bp_history)
     uint8_t counter_val = gptable[gptable_index];
 
     // Then we return the prediction (LSB of the counter)
-    return ((counter_val << gptableWidth - 1) >> gptableWidth - 1) == 1;
+    return ((counter_val << (gptableWidth - 1)) >> (gptableWidth - 1)) == 1;
 }
 
 void
@@ -125,7 +125,7 @@ PAgPred::update(ThreadID tid, Addr branch_addr, bool taken, void *bp_history,
 
     // Then we update the GPT (using the same index, +taken -not_taken)
     if (taken) {
-        if (prediction_val < gptableWidth - 1) {
+        if (prediction_val < (gptableWidth - 1)) {
             prediction_val++;
         }
     } else {
@@ -137,7 +137,7 @@ PAgPred::update(ThreadID tid, Addr branch_addr, bool taken, void *bp_history,
     // inform("global prediction: %d->%d\n", old_prediction_val,prediction_val);
 
     // Then we update the GPT
-    SatCounter8 new_prediction_val(prediction_val);
+    SatCounter64 new_prediction_val(prediction_val);
     gptable[local_history] = new_prediction_val;
 
     // Then we update the GHR by shifting to the left AND 1taken 0not_taken
