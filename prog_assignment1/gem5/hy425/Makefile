@@ -44,11 +44,12 @@ EXPLORE:
 	./runall.sh O3CPU PAgPred 512 10 1024 10
 	./runall.sh O3CPU PAgPred 1024 20 2048 20
 
+LIMITATIONS:
 	# Limit the budget to 3072 entries
 	./runall.sh O3CPU GAgPred 10 3
 	./runall.sh O3CPU GAgPred 7 24
-	./runall.sh O3CPU GAgPred 4 192
 
-	./runall.sh O3CPU PAgPred 128 8 16 128
-	./runall.sh O3CPU PAgPred 32 32 64 32
-	./runall.sh O3CPU PAgPred 8 128 256 8
+EXTREME_CASES:
+	./runall.sh TimingSimpleCPU GAgPred 7 24
+	./runall.sh TimingSimpleCPU PAgPred 64 16 32 64
+	./runall.sh TimingSimpleCPU PAgPred 32 32 64 32
