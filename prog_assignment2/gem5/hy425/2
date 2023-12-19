@@ -1,0 +1,2624 @@
+./runall.sh 16 64 2 2 2 1
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 11:35:15
+gem5 executing on CPVM, pid 44409
+command line: ../build/X86/gem5.opt -d ./benchmark1/m5out_LSQ:16._ROB:64._IFU:2._CFU:2._FFU:2._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark1/bin/benchmark -o ./benchmark1/data/input.program -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=16 --numROB_Entries=64 --num_int_FUs=2 --num_complex_FUs=2 --num_ls_FUs=1 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark1/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+spec_init
+Loading Input Data
+Duplicating 8070616 bytes
+build/X86/arch/x86/generated/exec-ns.cc.inc:27: warn: instruction 'prefetch_nta' unimplemented
+build/X86/arch/x86/generated/exec-ns.cc.inc:27: warn: instruction 'prefetch_nta' unimplemented
+build/X86/arch/generic/debugfaults.hh:145: warn: MOVNTI: Ignoring non-temporal hint, modeling as cacheable!
+Exiting @ tick 42341163000 because a thread reached the max instruction count
+
+real	3m14,648s
+user	3m14,218s
+sys	0m0,364s
+-------------------------------------------------------
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 11:38:29
+gem5 executing on CPVM, pid 44440
+command line: ../build/X86/gem5.opt -d ./benchmark2/m5out_LSQ:16._ROB:64._IFU:2._CFU:2._FFU:2._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark2/bin/benchmark -o ./benchmark2/data/inp.in -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=16 --numROB_Entries=64 --num_int_FUs=2 --num_complex_FUs=2 --num_ls_FUs=1 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark2/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+
+MCF SPEC CPU2006 version 1.10
+Copyright (c) 1998-2000 Zuse Institut Berlin (ZIB)
+Copyright (c) 2000-2002 Andreas Loebel & ZIB
+Copyright (c) 2003-2005 Andreas Loebel
+
+Exiting @ tick 5012066000 because a thread reached the max instruction count
+
+real	0m28,854s
+user	0m28,780s
+sys	0m0,050s
+-------------------------------------------------------
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 11:38:58
+gem5 executing on CPVM, pid 44441
+command line: ../build/X86/gem5.opt -d ./benchmark3/m5out_LSQ:16._ROB:64._IFU:2._CFU:2._FFU:2._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark3/bin/benchmark -o ./benchmark3/data/bombesin.hmm.new -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=16 --numROB_Entries=64 --num_int_FUs=2 --num_complex_FUs=2 --num_ls_FUs=1 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark3/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+hmmcalibrate -- calibrate HMM search statistics
+HMMER 2.3 (May 2003)
+Copyright (C) 1992-2003 HHMI/Washington University School of Medicine
+Freely distributed under the GNU General Public License (GPL)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+HMM file:                 ./benchmark3/data/bombesin.hmm.new
+Length distribution mean: 325
+Length distribution s.d.: 200
+Number of samples:        5000
+random seed:              1000000000
+histogram(s) saved to:    [not saved]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Exiting @ tick 8210353000 because a thread reached the max instruction count
+
+real	0m31,275s
+user	0m31,148s
+sys	0m0,036s
+-------------------------------------------------------
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 11:39:30
+gem5 executing on CPVM, pid 44442
+command line: ../build/X86/gem5.opt -d ./benchmark4/m5out_LSQ:16._ROB:64._IFU:2._CFU:2._FFU:2._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark4/bin/benchmark -o ./benchmark4/data/test.txt -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=16 --numROB_Entries=64 --num_int_FUs=2 --num_complex_FUs=2 --num_ls_FUs=1 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark4/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+Exiting @ tick 7499076000 because a thread reached the max instruction count
+
+real	0m25,914s
+user	0m25,835s
+sys	0m0,075s
+-------------------------------------------------------
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 11:39:55
+gem5 executing on CPVM, pid 44443
+command line: ../build/X86/gem5.opt -d ./benchmark5/m5out_LSQ:16._ROB:64._IFU:2._CFU:2._FFU:2._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark5/bin/benchmark -o '20 reference.dat 0 1 ./benchmark5/data/100_100_130_cf_a.of' -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=16 --numROB_Entries=64 --num_int_FUs=2 --num_complex_FUs=2 --num_ls_FUs=1 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark5/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+MAIN_printInfo:
+	grid size      : 100 x 100 x 130 = 1.30 * 10^6 Cells
+	nTimeSteps     : 20
+	result file    : reference.dat
+	action         : nothing
+	simulation type: channel flow
+	obstacle file  : ./benchmark5/data/100_100_130_cf_a.of
+
+Exiting @ tick 4687770000 because a thread reached the max instruction count
+
+real	0m23,708s
+user	0m23,638s
+sys	0m0,040s
+-------------------------------------------------------
+./runall.sh 32 64 2 2 2 1
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 11:40:19
+gem5 executing on CPVM, pid 44445
+command line: ../build/X86/gem5.opt -d ./benchmark1/m5out_LSQ:32._ROB:64._IFU:2._CFU:2._FFU:2._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark1/bin/benchmark -o ./benchmark1/data/input.program -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=32 --numROB_Entries=64 --num_int_FUs=2 --num_complex_FUs=2 --num_ls_FUs=1 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark1/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+spec_init
+Loading Input Data
+Duplicating 8070616 bytes
+build/X86/arch/x86/generated/exec-ns.cc.inc:27: warn: instruction 'prefetch_nta' unimplemented
+build/X86/arch/x86/generated/exec-ns.cc.inc:27: warn: instruction 'prefetch_nta' unimplemented
+build/X86/arch/generic/debugfaults.hh:145: warn: MOVNTI: Ignoring non-temporal hint, modeling as cacheable!
+Exiting @ tick 43111772000 because a thread reached the max instruction count
+
+real	3m27,167s
+user	3m26,752s
+sys	0m0,380s
+-------------------------------------------------------
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 11:43:46
+gem5 executing on CPVM, pid 44450
+command line: ../build/X86/gem5.opt -d ./benchmark2/m5out_LSQ:32._ROB:64._IFU:2._CFU:2._FFU:2._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark2/bin/benchmark -o ./benchmark2/data/inp.in -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=32 --numROB_Entries=64 --num_int_FUs=2 --num_complex_FUs=2 --num_ls_FUs=1 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark2/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+
+MCF SPEC CPU2006 version 1.10
+Copyright (c) 1998-2000 Zuse Institut Berlin (ZIB)
+Copyright (c) 2000-2002 Andreas Loebel & ZIB
+Copyright (c) 2003-2005 Andreas Loebel
+
+Exiting @ tick 4623046000 because a thread reached the max instruction count
+
+real	0m28,948s
+user	0m28,869s
+sys	0m0,052s
+-------------------------------------------------------
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 11:44:15
+gem5 executing on CPVM, pid 44451
+command line: ../build/X86/gem5.opt -d ./benchmark3/m5out_LSQ:32._ROB:64._IFU:2._CFU:2._FFU:2._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark3/bin/benchmark -o ./benchmark3/data/bombesin.hmm.new -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=32 --numROB_Entries=64 --num_int_FUs=2 --num_complex_FUs=2 --num_ls_FUs=1 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark3/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+hmmcalibrate -- calibrate HMM search statistics
+HMMER 2.3 (May 2003)
+Copyright (C) 1992-2003 HHMI/Washington University School of Medicine
+Freely distributed under the GNU General Public License (GPL)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+HMM file:                 ./benchmark3/data/bombesin.hmm.new
+Length distribution mean: 325
+Length distribution s.d.: 200
+Number of samples:        5000
+random seed:              1000000000
+histogram(s) saved to:    [not saved]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Exiting @ tick 7836774000 because a thread reached the max instruction count
+
+real	0m31,765s
+user	0m31,671s
+sys	0m0,044s
+-------------------------------------------------------
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 11:44:47
+gem5 executing on CPVM, pid 44452
+command line: ../build/X86/gem5.opt -d ./benchmark4/m5out_LSQ:32._ROB:64._IFU:2._CFU:2._FFU:2._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark4/bin/benchmark -o ./benchmark4/data/test.txt -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=32 --numROB_Entries=64 --num_int_FUs=2 --num_complex_FUs=2 --num_ls_FUs=1 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark4/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+Exiting @ tick 7520299000 because a thread reached the max instruction count
+
+real	0m25,284s
+user	0m25,223s
+sys	0m0,058s
+-------------------------------------------------------
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 11:45:12
+gem5 executing on CPVM, pid 44453
+command line: ../build/X86/gem5.opt -d ./benchmark5/m5out_LSQ:32._ROB:64._IFU:2._CFU:2._FFU:2._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark5/bin/benchmark -o '20 reference.dat 0 1 ./benchmark5/data/100_100_130_cf_a.of' -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=32 --numROB_Entries=64 --num_int_FUs=2 --num_complex_FUs=2 --num_ls_FUs=1 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark5/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+MAIN_printInfo:
+	grid size      : 100 x 100 x 130 = 1.30 * 10^6 Cells
+	nTimeSteps     : 20
+	result file    : reference.dat
+	action         : nothing
+	simulation type: channel flow
+	obstacle file  : ./benchmark5/data/100_100_130_cf_a.of
+
+Exiting @ tick 4393644000 because a thread reached the max instruction count
+
+real	0m24,408s
+user	0m24,317s
+sys	0m0,064s
+-------------------------------------------------------
+./runall.sh 64 64 2 2 2 1
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 11:45:37
+gem5 executing on CPVM, pid 44455
+command line: ../build/X86/gem5.opt -d ./benchmark1/m5out_LSQ:64._ROB:64._IFU:2._CFU:2._FFU:2._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark1/bin/benchmark -o ./benchmark1/data/input.program -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=64 --numROB_Entries=64 --num_int_FUs=2 --num_complex_FUs=2 --num_ls_FUs=1 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark1/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+spec_init
+Loading Input Data
+Duplicating 8070616 bytes
+build/X86/arch/x86/generated/exec-ns.cc.inc:27: warn: instruction 'prefetch_nta' unimplemented
+build/X86/arch/x86/generated/exec-ns.cc.inc:27: warn: instruction 'prefetch_nta' unimplemented
+build/X86/arch/generic/debugfaults.hh:145: warn: MOVNTI: Ignoring non-temporal hint, modeling as cacheable!
+Exiting @ tick 43117564000 because a thread reached the max instruction count
+
+real	3m27,137s
+user	3m26,709s
+sys	0m0,396s
+-------------------------------------------------------
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 11:49:04
+gem5 executing on CPVM, pid 44456
+command line: ../build/X86/gem5.opt -d ./benchmark2/m5out_LSQ:64._ROB:64._IFU:2._CFU:2._FFU:2._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark2/bin/benchmark -o ./benchmark2/data/inp.in -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=64 --numROB_Entries=64 --num_int_FUs=2 --num_complex_FUs=2 --num_ls_FUs=1 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark2/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+
+MCF SPEC CPU2006 version 1.10
+Copyright (c) 1998-2000 Zuse Institut Berlin (ZIB)
+Copyright (c) 2000-2002 Andreas Loebel & ZIB
+Copyright (c) 2003-2005 Andreas Loebel
+
+Exiting @ tick 4541428000 because a thread reached the max instruction count
+
+real	0m30,030s
+user	0m29,965s
+sys	0m0,040s
+-------------------------------------------------------
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 11:49:34
+gem5 executing on CPVM, pid 44457
+command line: ../build/X86/gem5.opt -d ./benchmark3/m5out_LSQ:64._ROB:64._IFU:2._CFU:2._FFU:2._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark3/bin/benchmark -o ./benchmark3/data/bombesin.hmm.new -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=64 --numROB_Entries=64 --num_int_FUs=2 --num_complex_FUs=2 --num_ls_FUs=1 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark3/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+hmmcalibrate -- calibrate HMM search statistics
+HMMER 2.3 (May 2003)
+Copyright (C) 1992-2003 HHMI/Washington University School of Medicine
+Freely distributed under the GNU General Public License (GPL)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+HMM file:                 ./benchmark3/data/bombesin.hmm.new
+Length distribution mean: 325
+Length distribution s.d.: 200
+Number of samples:        5000
+random seed:              1000000000
+histogram(s) saved to:    [not saved]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Exiting @ tick 7836674000 because a thread reached the max instruction count
+
+real	0m31,964s
+user	0m31,886s
+sys	0m0,032s
+-------------------------------------------------------
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 11:50:06
+gem5 executing on CPVM, pid 44458
+command line: ../build/X86/gem5.opt -d ./benchmark4/m5out_LSQ:64._ROB:64._IFU:2._CFU:2._FFU:2._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark4/bin/benchmark -o ./benchmark4/data/test.txt -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=64 --numROB_Entries=64 --num_int_FUs=2 --num_complex_FUs=2 --num_ls_FUs=1 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark4/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+Exiting @ tick 7372376000 because a thread reached the max instruction count
+
+real	0m25,440s
+user	0m25,389s
+sys	0m0,048s
+-------------------------------------------------------
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 11:50:31
+gem5 executing on CPVM, pid 44459
+command line: ../build/X86/gem5.opt -d ./benchmark5/m5out_LSQ:64._ROB:64._IFU:2._CFU:2._FFU:2._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark5/bin/benchmark -o '20 reference.dat 0 1 ./benchmark5/data/100_100_130_cf_a.of' -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=64 --numROB_Entries=64 --num_int_FUs=2 --num_complex_FUs=2 --num_ls_FUs=1 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark5/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+MAIN_printInfo:
+	grid size      : 100 x 100 x 130 = 1.30 * 10^6 Cells
+	nTimeSteps     : 20
+	result file    : reference.dat
+	action         : nothing
+	simulation type: channel flow
+	obstacle file  : ./benchmark5/data/100_100_130_cf_a.of
+
+Exiting @ tick 4106901000 because a thread reached the max instruction count
+
+real	0m25,846s
+user	0m25,770s
+sys	0m0,048s
+-------------------------------------------------------
+./runall.sh 128 64 2 2 2 1
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 11:50:57
+gem5 executing on CPVM, pid 44462
+command line: ../build/X86/gem5.opt -d ./benchmark1/m5out_LSQ:128._ROB:64._IFU:2._CFU:2._FFU:2._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark1/bin/benchmark -o ./benchmark1/data/input.program -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=128 --numROB_Entries=64 --num_int_FUs=2 --num_complex_FUs=2 --num_ls_FUs=1 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark1/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+spec_init
+Loading Input Data
+Duplicating 8070616 bytes
+build/X86/arch/x86/generated/exec-ns.cc.inc:27: warn: instruction 'prefetch_nta' unimplemented
+build/X86/arch/x86/generated/exec-ns.cc.inc:27: warn: instruction 'prefetch_nta' unimplemented
+build/X86/arch/generic/debugfaults.hh:145: warn: MOVNTI: Ignoring non-temporal hint, modeling as cacheable!
+Exiting @ tick 43109034000 because a thread reached the max instruction count
+
+real	3m26,751s
+user	3m26,390s
+sys	0m0,308s
+-------------------------------------------------------
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 11:54:24
+gem5 executing on CPVM, pid 44463
+command line: ../build/X86/gem5.opt -d ./benchmark2/m5out_LSQ:128._ROB:64._IFU:2._CFU:2._FFU:2._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark2/bin/benchmark -o ./benchmark2/data/inp.in -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=128 --numROB_Entries=64 --num_int_FUs=2 --num_complex_FUs=2 --num_ls_FUs=1 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark2/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+
+MCF SPEC CPU2006 version 1.10
+Copyright (c) 1998-2000 Zuse Institut Berlin (ZIB)
+Copyright (c) 2000-2002 Andreas Loebel & ZIB
+Copyright (c) 2003-2005 Andreas Loebel
+
+Exiting @ tick 4540109000 because a thread reached the max instruction count
+
+real	0m29,074s
+user	0m29,018s
+sys	0m0,032s
+-------------------------------------------------------
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 11:54:53
+gem5 executing on CPVM, pid 44464
+command line: ../build/X86/gem5.opt -d ./benchmark3/m5out_LSQ:128._ROB:64._IFU:2._CFU:2._FFU:2._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark3/bin/benchmark -o ./benchmark3/data/bombesin.hmm.new -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=128 --numROB_Entries=64 --num_int_FUs=2 --num_complex_FUs=2 --num_ls_FUs=1 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark3/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+hmmcalibrate -- calibrate HMM search statistics
+HMMER 2.3 (May 2003)
+Copyright (C) 1992-2003 HHMI/Washington University School of Medicine
+Freely distributed under the GNU General Public License (GPL)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+HMM file:                 ./benchmark3/data/bombesin.hmm.new
+Length distribution mean: 325
+Length distribution s.d.: 200
+Number of samples:        5000
+random seed:              1000000000
+histogram(s) saved to:    [not saved]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Exiting @ tick 7831963000 because a thread reached the max instruction count
+
+real	0m31,758s
+user	0m31,664s
+sys	0m0,048s
+-------------------------------------------------------
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 11:55:25
+gem5 executing on CPVM, pid 44465
+command line: ../build/X86/gem5.opt -d ./benchmark4/m5out_LSQ:128._ROB:64._IFU:2._CFU:2._FFU:2._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark4/bin/benchmark -o ./benchmark4/data/test.txt -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=128 --numROB_Entries=64 --num_int_FUs=2 --num_complex_FUs=2 --num_ls_FUs=1 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark4/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+Exiting @ tick 7364011000 because a thread reached the max instruction count
+
+real	0m26,828s
+user	0m26,794s
+sys	0m0,032s
+-------------------------------------------------------
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 11:55:52
+gem5 executing on CPVM, pid 44466
+command line: ../build/X86/gem5.opt -d ./benchmark5/m5out_LSQ:128._ROB:64._IFU:2._CFU:2._FFU:2._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark5/bin/benchmark -o '20 reference.dat 0 1 ./benchmark5/data/100_100_130_cf_a.of' -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=128 --numROB_Entries=64 --num_int_FUs=2 --num_complex_FUs=2 --num_ls_FUs=1 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark5/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+MAIN_printInfo:
+	grid size      : 100 x 100 x 130 = 1.30 * 10^6 Cells
+	nTimeSteps     : 20
+	result file    : reference.dat
+	action         : nothing
+	simulation type: channel flow
+	obstacle file  : ./benchmark5/data/100_100_130_cf_a.of
+
+Exiting @ tick 3925933000 because a thread reached the max instruction count
+
+real	0m30,270s
+user	0m30,177s
+sys	0m0,060s
+-------------------------------------------------------
+./runall.sh 16 128 2 2 2 1
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 11:56:22
+gem5 executing on CPVM, pid 44468
+command line: ../build/X86/gem5.opt -d ./benchmark1/m5out_LSQ:16._ROB:128._IFU:2._CFU:2._FFU:2._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark1/bin/benchmark -o ./benchmark1/data/input.program -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=16 --numROB_Entries=128 --num_int_FUs=2 --num_complex_FUs=2 --num_ls_FUs=1 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark1/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+spec_init
+Loading Input Data
+Duplicating 8070616 bytes
+build/X86/arch/x86/generated/exec-ns.cc.inc:27: warn: instruction 'prefetch_nta' unimplemented
+build/X86/arch/x86/generated/exec-ns.cc.inc:27: warn: instruction 'prefetch_nta' unimplemented
+build/X86/arch/generic/debugfaults.hh:145: warn: MOVNTI: Ignoring non-temporal hint, modeling as cacheable!
+Exiting @ tick 45257579000 because a thread reached the max instruction count
+
+real	3m18,391s
+user	3m17,931s
+sys	0m0,429s
+-------------------------------------------------------
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 11:59:40
+gem5 executing on CPVM, pid 44469
+command line: ../build/X86/gem5.opt -d ./benchmark2/m5out_LSQ:16._ROB:128._IFU:2._CFU:2._FFU:2._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark2/bin/benchmark -o ./benchmark2/data/inp.in -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=16 --numROB_Entries=128 --num_int_FUs=2 --num_complex_FUs=2 --num_ls_FUs=1 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark2/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+
+MCF SPEC CPU2006 version 1.10
+Copyright (c) 1998-2000 Zuse Institut Berlin (ZIB)
+Copyright (c) 2000-2002 Andreas Loebel & ZIB
+Copyright (c) 2003-2005 Andreas Loebel
+
+Exiting @ tick 4879283000 because a thread reached the max instruction count
+
+real	0m30,147s
+user	0m30,076s
+sys	0m0,048s
+-------------------------------------------------------
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 12:00:10
+gem5 executing on CPVM, pid 44471
+command line: ../build/X86/gem5.opt -d ./benchmark3/m5out_LSQ:16._ROB:128._IFU:2._CFU:2._FFU:2._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark3/bin/benchmark -o ./benchmark3/data/bombesin.hmm.new -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=16 --numROB_Entries=128 --num_int_FUs=2 --num_complex_FUs=2 --num_ls_FUs=1 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark3/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+hmmcalibrate -- calibrate HMM search statistics
+HMMER 2.3 (May 2003)
+Copyright (C) 1992-2003 HHMI/Washington University School of Medicine
+Freely distributed under the GNU General Public License (GPL)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+HMM file:                 ./benchmark3/data/bombesin.hmm.new
+Length distribution mean: 325
+Length distribution s.d.: 200
+Number of samples:        5000
+random seed:              1000000000
+histogram(s) saved to:    [not saved]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Exiting @ tick 8148341000 because a thread reached the max instruction count
+
+real	0m33,320s
+user	0m33,212s
+sys	0m0,060s
+-------------------------------------------------------
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 12:00:44
+gem5 executing on CPVM, pid 44473
+command line: ../build/X86/gem5.opt -d ./benchmark4/m5out_LSQ:16._ROB:128._IFU:2._CFU:2._FFU:2._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark4/bin/benchmark -o ./benchmark4/data/test.txt -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=16 --numROB_Entries=128 --num_int_FUs=2 --num_complex_FUs=2 --num_ls_FUs=1 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark4/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+Exiting @ tick 7411001000 because a thread reached the max instruction count
+
+real	0m25,351s
+user	0m25,272s
+sys	0m0,078s
+-------------------------------------------------------
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 12:01:09
+gem5 executing on CPVM, pid 44474
+command line: ../build/X86/gem5.opt -d ./benchmark5/m5out_LSQ:16._ROB:128._IFU:2._CFU:2._FFU:2._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark5/bin/benchmark -o '20 reference.dat 0 1 ./benchmark5/data/100_100_130_cf_a.of' -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=16 --numROB_Entries=128 --num_int_FUs=2 --num_complex_FUs=2 --num_ls_FUs=1 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark5/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+MAIN_printInfo:
+	grid size      : 100 x 100 x 130 = 1.30 * 10^6 Cells
+	nTimeSteps     : 20
+	result file    : reference.dat
+	action         : nothing
+	simulation type: channel flow
+	obstacle file  : ./benchmark5/data/100_100_130_cf_a.of
+
+Exiting @ tick 4683855000 because a thread reached the max instruction count
+
+real	0m23,892s
+user	0m23,815s
+sys	0m0,044s
+-------------------------------------------------------
+./runall.sh 16 256 2 2 2 1
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 12:01:33
+gem5 executing on CPVM, pid 44476
+command line: ../build/X86/gem5.opt -d ./benchmark1/m5out_LSQ:16._ROB:256._IFU:2._CFU:2._FFU:2._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark1/bin/benchmark -o ./benchmark1/data/input.program -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=16 --numROB_Entries=256 --num_int_FUs=2 --num_complex_FUs=2 --num_ls_FUs=1 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark1/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+spec_init
+Loading Input Data
+Duplicating 8070616 bytes
+build/X86/arch/x86/generated/exec-ns.cc.inc:27: warn: instruction 'prefetch_nta' unimplemented
+build/X86/arch/x86/generated/exec-ns.cc.inc:27: warn: instruction 'prefetch_nta' unimplemented
+build/X86/arch/generic/debugfaults.hh:145: warn: MOVNTI: Ignoring non-temporal hint, modeling as cacheable!
+Exiting @ tick 45256793000 because a thread reached the max instruction count
+
+real	3m8,504s
+user	3m8,066s
+sys	0m0,384s
+-------------------------------------------------------
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 12:04:41
+gem5 executing on CPVM, pid 44477
+command line: ../build/X86/gem5.opt -d ./benchmark2/m5out_LSQ:16._ROB:256._IFU:2._CFU:2._FFU:2._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark2/bin/benchmark -o ./benchmark2/data/inp.in -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=16 --numROB_Entries=256 --num_int_FUs=2 --num_complex_FUs=2 --num_ls_FUs=1 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark2/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+
+MCF SPEC CPU2006 version 1.10
+Copyright (c) 1998-2000 Zuse Institut Berlin (ZIB)
+Copyright (c) 2000-2002 Andreas Loebel & ZIB
+Copyright (c) 2003-2005 Andreas Loebel
+
+Exiting @ tick 4879963000 because a thread reached the max instruction count
+
+real	0m30,607s
+user	0m30,552s
+sys	0m0,034s
+-------------------------------------------------------
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 12:05:12
+gem5 executing on CPVM, pid 44478
+command line: ../build/X86/gem5.opt -d ./benchmark3/m5out_LSQ:16._ROB:256._IFU:2._CFU:2._FFU:2._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark3/bin/benchmark -o ./benchmark3/data/bombesin.hmm.new -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=16 --numROB_Entries=256 --num_int_FUs=2 --num_complex_FUs=2 --num_ls_FUs=1 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark3/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+hmmcalibrate -- calibrate HMM search statistics
+HMMER 2.3 (May 2003)
+Copyright (C) 1992-2003 HHMI/Washington University School of Medicine
+Freely distributed under the GNU General Public License (GPL)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+HMM file:                 ./benchmark3/data/bombesin.hmm.new
+Length distribution mean: 325
+Length distribution s.d.: 200
+Number of samples:        5000
+random seed:              1000000000
+histogram(s) saved to:    [not saved]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Exiting @ tick 8192683000 because a thread reached the max instruction count
+
+real	0m32,314s
+user	0m32,214s
+sys	0m0,059s
+-------------------------------------------------------
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 12:05:44
+gem5 executing on CPVM, pid 44479
+command line: ../build/X86/gem5.opt -d ./benchmark4/m5out_LSQ:16._ROB:256._IFU:2._CFU:2._FFU:2._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark4/bin/benchmark -o ./benchmark4/data/test.txt -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=16 --numROB_Entries=256 --num_int_FUs=2 --num_complex_FUs=2 --num_ls_FUs=1 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark4/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+Exiting @ tick 7410991000 because a thread reached the max instruction count
+
+real	0m25,129s
+user	0m25,097s
+sys	0m0,028s
+-------------------------------------------------------
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 12:06:10
+gem5 executing on CPVM, pid 44480
+command line: ../build/X86/gem5.opt -d ./benchmark5/m5out_LSQ:16._ROB:256._IFU:2._CFU:2._FFU:2._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark5/bin/benchmark -o '20 reference.dat 0 1 ./benchmark5/data/100_100_130_cf_a.of' -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=16 --numROB_Entries=256 --num_int_FUs=2 --num_complex_FUs=2 --num_ls_FUs=1 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark5/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+MAIN_printInfo:
+	grid size      : 100 x 100 x 130 = 1.30 * 10^6 Cells
+	nTimeSteps     : 20
+	result file    : reference.dat
+	action         : nothing
+	simulation type: channel flow
+	obstacle file  : ./benchmark5/data/100_100_130_cf_a.of
+
+Exiting @ tick 4683855000 because a thread reached the max instruction count
+
+real	0m23,980s
+user	0m23,901s
+sys	0m0,052s
+-------------------------------------------------------
+./runall.sh 16 512 2 2 2 1
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 12:06:34
+gem5 executing on CPVM, pid 44482
+command line: ../build/X86/gem5.opt -d ./benchmark1/m5out_LSQ:16._ROB:512._IFU:2._CFU:2._FFU:2._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark1/bin/benchmark -o ./benchmark1/data/input.program -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=16 --numROB_Entries=512 --num_int_FUs=2 --num_complex_FUs=2 --num_ls_FUs=1 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark1/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+spec_init
+Loading Input Data
+Duplicating 8070616 bytes
+build/X86/arch/x86/generated/exec-ns.cc.inc:27: warn: instruction 'prefetch_nta' unimplemented
+build/X86/arch/x86/generated/exec-ns.cc.inc:27: warn: instruction 'prefetch_nta' unimplemented
+build/X86/arch/generic/debugfaults.hh:145: warn: MOVNTI: Ignoring non-temporal hint, modeling as cacheable!
+Exiting @ tick 45256793000 because a thread reached the max instruction count
+
+real	3m12,581s
+user	3m12,231s
+sys	0m0,312s
+-------------------------------------------------------
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 12:09:46
+gem5 executing on CPVM, pid 44483
+command line: ../build/X86/gem5.opt -d ./benchmark2/m5out_LSQ:16._ROB:512._IFU:2._CFU:2._FFU:2._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark2/bin/benchmark -o ./benchmark2/data/inp.in -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=16 --numROB_Entries=512 --num_int_FUs=2 --num_complex_FUs=2 --num_ls_FUs=1 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark2/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+
+MCF SPEC CPU2006 version 1.10
+Copyright (c) 1998-2000 Zuse Institut Berlin (ZIB)
+Copyright (c) 2000-2002 Andreas Loebel & ZIB
+Copyright (c) 2003-2005 Andreas Loebel
+
+Exiting @ tick 4880416000 because a thread reached the max instruction count
+
+real	0m29,395s
+user	0m29,330s
+sys	0m0,044s
+-------------------------------------------------------
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 12:10:15
+gem5 executing on CPVM, pid 44484
+command line: ../build/X86/gem5.opt -d ./benchmark3/m5out_LSQ:16._ROB:512._IFU:2._CFU:2._FFU:2._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark3/bin/benchmark -o ./benchmark3/data/bombesin.hmm.new -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=16 --numROB_Entries=512 --num_int_FUs=2 --num_complex_FUs=2 --num_ls_FUs=1 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark3/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+hmmcalibrate -- calibrate HMM search statistics
+HMMER 2.3 (May 2003)
+Copyright (C) 1992-2003 HHMI/Washington University School of Medicine
+Freely distributed under the GNU General Public License (GPL)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+HMM file:                 ./benchmark3/data/bombesin.hmm.new
+Length distribution mean: 325
+Length distribution s.d.: 200
+Number of samples:        5000
+random seed:              1000000000
+histogram(s) saved to:    [not saved]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Exiting @ tick 8191782000 because a thread reached the max instruction count
+
+real	0m31,494s
+user	0m31,377s
+sys	0m0,068s
+-------------------------------------------------------
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 12:10:47
+gem5 executing on CPVM, pid 44486
+command line: ../build/X86/gem5.opt -d ./benchmark4/m5out_LSQ:16._ROB:512._IFU:2._CFU:2._FFU:2._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark4/bin/benchmark -o ./benchmark4/data/test.txt -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=16 --numROB_Entries=512 --num_int_FUs=2 --num_complex_FUs=2 --num_ls_FUs=1 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark4/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+Exiting @ tick 7410991000 because a thread reached the max instruction count
+
+real	0m24,814s
+user	0m24,780s
+sys	0m0,032s
+-------------------------------------------------------
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 12:11:12
+gem5 executing on CPVM, pid 44487
+command line: ../build/X86/gem5.opt -d ./benchmark5/m5out_LSQ:16._ROB:512._IFU:2._CFU:2._FFU:2._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark5/bin/benchmark -o '20 reference.dat 0 1 ./benchmark5/data/100_100_130_cf_a.of' -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=16 --numROB_Entries=512 --num_int_FUs=2 --num_complex_FUs=2 --num_ls_FUs=1 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark5/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+MAIN_printInfo:
+	grid size      : 100 x 100 x 130 = 1.30 * 10^6 Cells
+	nTimeSteps     : 20
+	result file    : reference.dat
+	action         : nothing
+	simulation type: channel flow
+	obstacle file  : ./benchmark5/data/100_100_130_cf_a.of
+
+Exiting @ tick 4683855000 because a thread reached the max instruction count
+
+real	0m24,188s
+user	0m24,096s
+sys	0m0,052s
+-------------------------------------------------------
+./runall.sh 16 64 4 2 2 1
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 12:11:36
+gem5 executing on CPVM, pid 44489
+command line: ../build/X86/gem5.opt -d ./benchmark1/m5out_LSQ:16._ROB:64._IFU:4._CFU:2._FFU:2._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark1/bin/benchmark -o ./benchmark1/data/input.program -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=16 --numROB_Entries=64 --num_int_FUs=4 --num_complex_FUs=2 --num_ls_FUs=1 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark1/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+spec_init
+Loading Input Data
+Duplicating 8070616 bytes
+build/X86/arch/x86/generated/exec-ns.cc.inc:27: warn: instruction 'prefetch_nta' unimplemented
+build/X86/arch/x86/generated/exec-ns.cc.inc:27: warn: instruction 'prefetch_nta' unimplemented
+build/X86/arch/generic/debugfaults.hh:145: warn: MOVNTI: Ignoring non-temporal hint, modeling as cacheable!
+Exiting @ tick 42273053000 because a thread reached the max instruction count
+
+real	3m9,651s
+user	3m9,299s
+sys	0m0,300s
+-------------------------------------------------------
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 12:14:46
+gem5 executing on CPVM, pid 44490
+command line: ../build/X86/gem5.opt -d ./benchmark2/m5out_LSQ:16._ROB:64._IFU:4._CFU:2._FFU:2._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark2/bin/benchmark -o ./benchmark2/data/inp.in -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=16 --numROB_Entries=64 --num_int_FUs=4 --num_complex_FUs=2 --num_ls_FUs=1 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark2/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+
+MCF SPEC CPU2006 version 1.10
+Copyright (c) 1998-2000 Zuse Institut Berlin (ZIB)
+Copyright (c) 2000-2002 Andreas Loebel & ZIB
+Copyright (c) 2003-2005 Andreas Loebel
+
+Exiting @ tick 4573205000 because a thread reached the max instruction count
+
+real	0m29,014s
+user	0m28,967s
+sys	0m0,024s
+-------------------------------------------------------
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 12:15:15
+gem5 executing on CPVM, pid 44491
+command line: ../build/X86/gem5.opt -d ./benchmark3/m5out_LSQ:16._ROB:64._IFU:4._CFU:2._FFU:2._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark3/bin/benchmark -o ./benchmark3/data/bombesin.hmm.new -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=16 --numROB_Entries=64 --num_int_FUs=4 --num_complex_FUs=2 --num_ls_FUs=1 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark3/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+hmmcalibrate -- calibrate HMM search statistics
+HMMER 2.3 (May 2003)
+Copyright (C) 1992-2003 HHMI/Washington University School of Medicine
+Freely distributed under the GNU General Public License (GPL)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+HMM file:                 ./benchmark3/data/bombesin.hmm.new
+Length distribution mean: 325
+Length distribution s.d.: 200
+Number of samples:        5000
+random seed:              1000000000
+histogram(s) saved to:    [not saved]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Exiting @ tick 8147105000 because a thread reached the max instruction count
+
+real	0m30,868s
+user	0m30,790s
+sys	0m0,032s
+-------------------------------------------------------
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 12:15:46
+gem5 executing on CPVM, pid 44492
+command line: ../build/X86/gem5.opt -d ./benchmark4/m5out_LSQ:16._ROB:64._IFU:4._CFU:2._FFU:2._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark4/bin/benchmark -o ./benchmark4/data/test.txt -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=16 --numROB_Entries=64 --num_int_FUs=4 --num_complex_FUs=2 --num_ls_FUs=1 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark4/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+Exiting @ tick 7492630000 because a thread reached the max instruction count
+
+real	0m24,986s
+user	0m24,948s
+sys	0m0,036s
+-------------------------------------------------------
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 12:16:10
+gem5 executing on CPVM, pid 44493
+command line: ../build/X86/gem5.opt -d ./benchmark5/m5out_LSQ:16._ROB:64._IFU:4._CFU:2._FFU:2._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark5/bin/benchmark -o '20 reference.dat 0 1 ./benchmark5/data/100_100_130_cf_a.of' -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=16 --numROB_Entries=64 --num_int_FUs=4 --num_complex_FUs=2 --num_ls_FUs=1 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark5/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+MAIN_printInfo:
+	grid size      : 100 x 100 x 130 = 1.30 * 10^6 Cells
+	nTimeSteps     : 20
+	result file    : reference.dat
+	action         : nothing
+	simulation type: channel flow
+	obstacle file  : ./benchmark5/data/100_100_130_cf_a.of
+
+Exiting @ tick 4679997000 because a thread reached the max instruction count
+
+real	0m23,708s
+user	0m23,637s
+sys	0m0,040s
+-------------------------------------------------------
+./runall.sh 16 64 8 2 2 1
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 12:16:34
+gem5 executing on CPVM, pid 44495
+command line: ../build/X86/gem5.opt -d ./benchmark1/m5out_LSQ:16._ROB:64._IFU:8._CFU:2._FFU:2._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark1/bin/benchmark -o ./benchmark1/data/input.program -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=16 --numROB_Entries=64 --num_int_FUs=8 --num_complex_FUs=2 --num_ls_FUs=1 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark1/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+spec_init
+Loading Input Data
+Duplicating 8070616 bytes
+build/X86/arch/x86/generated/exec-ns.cc.inc:27: warn: instruction 'prefetch_nta' unimplemented
+build/X86/arch/x86/generated/exec-ns.cc.inc:27: warn: instruction 'prefetch_nta' unimplemented
+build/X86/arch/generic/debugfaults.hh:145: warn: MOVNTI: Ignoring non-temporal hint, modeling as cacheable!
+Exiting @ tick 42273067000 because a thread reached the max instruction count
+
+real	3m14,698s
+user	3m14,342s
+sys	0m0,304s
+-------------------------------------------------------
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 12:19:49
+gem5 executing on CPVM, pid 44501
+command line: ../build/X86/gem5.opt -d ./benchmark2/m5out_LSQ:16._ROB:64._IFU:8._CFU:2._FFU:2._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark2/bin/benchmark -o ./benchmark2/data/inp.in -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=16 --numROB_Entries=64 --num_int_FUs=8 --num_complex_FUs=2 --num_ls_FUs=1 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark2/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+
+MCF SPEC CPU2006 version 1.10
+Copyright (c) 1998-2000 Zuse Institut Berlin (ZIB)
+Copyright (c) 2000-2002 Andreas Loebel & ZIB
+Copyright (c) 2003-2005 Andreas Loebel
+
+Exiting @ tick 4618228000 because a thread reached the max instruction count
+
+real	0m28,210s
+user	0m28,153s
+sys	0m0,032s
+-------------------------------------------------------
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 12:20:17
+gem5 executing on CPVM, pid 44502
+command line: ../build/X86/gem5.opt -d ./benchmark3/m5out_LSQ:16._ROB:64._IFU:8._CFU:2._FFU:2._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark3/bin/benchmark -o ./benchmark3/data/bombesin.hmm.new -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=16 --numROB_Entries=64 --num_int_FUs=8 --num_complex_FUs=2 --num_ls_FUs=1 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark3/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+hmmcalibrate -- calibrate HMM search statistics
+HMMER 2.3 (May 2003)
+Copyright (C) 1992-2003 HHMI/Washington University School of Medicine
+Freely distributed under the GNU General Public License (GPL)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+HMM file:                 ./benchmark3/data/bombesin.hmm.new
+Length distribution mean: 325
+Length distribution s.d.: 200
+Number of samples:        5000
+random seed:              1000000000
+histogram(s) saved to:    [not saved]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Exiting @ tick 8146940000 because a thread reached the max instruction count
+
+real	0m31,695s
+user	0m31,588s
+sys	0m0,060s
+-------------------------------------------------------
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 12:20:49
+gem5 executing on CPVM, pid 44504
+command line: ../build/X86/gem5.opt -d ./benchmark4/m5out_LSQ:16._ROB:64._IFU:8._CFU:2._FFU:2._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark4/bin/benchmark -o ./benchmark4/data/test.txt -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=16 --numROB_Entries=64 --num_int_FUs=8 --num_complex_FUs=2 --num_ls_FUs=1 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark4/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+Exiting @ tick 7492630000 because a thread reached the max instruction count
+
+real	0m25,537s
+user	0m25,507s
+sys	0m0,028s
+-------------------------------------------------------
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 12:21:14
+gem5 executing on CPVM, pid 44505
+command line: ../build/X86/gem5.opt -d ./benchmark5/m5out_LSQ:16._ROB:64._IFU:8._CFU:2._FFU:2._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark5/bin/benchmark -o '20 reference.dat 0 1 ./benchmark5/data/100_100_130_cf_a.of' -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=16 --numROB_Entries=64 --num_int_FUs=8 --num_complex_FUs=2 --num_ls_FUs=1 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark5/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+MAIN_printInfo:
+	grid size      : 100 x 100 x 130 = 1.30 * 10^6 Cells
+	nTimeSteps     : 20
+	result file    : reference.dat
+	action         : nothing
+	simulation type: channel flow
+	obstacle file  : ./benchmark5/data/100_100_130_cf_a.of
+
+Exiting @ tick 4679997000 because a thread reached the max instruction count
+
+real	0m23,555s
+user	0m23,480s
+sys	0m0,048s
+-------------------------------------------------------
+./runall.sh 16 64 16 2 2 1
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 12:21:38
+gem5 executing on CPVM, pid 44507
+command line: ../build/X86/gem5.opt -d ./benchmark1/m5out_LSQ:16._ROB:64._IFU:16._CFU:2._FFU:2._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark1/bin/benchmark -o ./benchmark1/data/input.program -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=16 --numROB_Entries=64 --num_int_FUs=16 --num_complex_FUs=2 --num_ls_FUs=1 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark1/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+spec_init
+Loading Input Data
+Duplicating 8070616 bytes
+build/X86/arch/x86/generated/exec-ns.cc.inc:27: warn: instruction 'prefetch_nta' unimplemented
+build/X86/arch/x86/generated/exec-ns.cc.inc:27: warn: instruction 'prefetch_nta' unimplemented
+build/X86/arch/generic/debugfaults.hh:145: warn: MOVNTI: Ignoring non-temporal hint, modeling as cacheable!
+Exiting @ tick 42273067000 because a thread reached the max instruction count
+
+real	3m9,676s
+user	3m9,319s
+sys	0m0,328s
+-------------------------------------------------------
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 12:24:48
+gem5 executing on CPVM, pid 44508
+command line: ../build/X86/gem5.opt -d ./benchmark2/m5out_LSQ:16._ROB:64._IFU:16._CFU:2._FFU:2._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark2/bin/benchmark -o ./benchmark2/data/inp.in -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=16 --numROB_Entries=64 --num_int_FUs=16 --num_complex_FUs=2 --num_ls_FUs=1 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark2/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+
+MCF SPEC CPU2006 version 1.10
+Copyright (c) 1998-2000 Zuse Institut Berlin (ZIB)
+Copyright (c) 2000-2002 Andreas Loebel & ZIB
+Copyright (c) 2003-2005 Andreas Loebel
+
+Exiting @ tick 4618228000 because a thread reached the max instruction count
+
+real	0m28,014s
+user	0m27,903s
+sys	0m0,090s
+-------------------------------------------------------
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 12:25:16
+gem5 executing on CPVM, pid 44509
+command line: ../build/X86/gem5.opt -d ./benchmark3/m5out_LSQ:16._ROB:64._IFU:16._CFU:2._FFU:2._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark3/bin/benchmark -o ./benchmark3/data/bombesin.hmm.new -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=16 --numROB_Entries=64 --num_int_FUs=16 --num_complex_FUs=2 --num_ls_FUs=1 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark3/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+hmmcalibrate -- calibrate HMM search statistics
+HMMER 2.3 (May 2003)
+Copyright (C) 1992-2003 HHMI/Washington University School of Medicine
+Freely distributed under the GNU General Public License (GPL)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+HMM file:                 ./benchmark3/data/bombesin.hmm.new
+Length distribution mean: 325
+Length distribution s.d.: 200
+Number of samples:        5000
+random seed:              1000000000
+histogram(s) saved to:    [not saved]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Exiting @ tick 8146940000 because a thread reached the max instruction count
+
+real	0m31,459s
+user	0m31,396s
+sys	0m0,020s
+-------------------------------------------------------
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 12:25:47
+gem5 executing on CPVM, pid 44510
+command line: ../build/X86/gem5.opt -d ./benchmark4/m5out_LSQ:16._ROB:64._IFU:16._CFU:2._FFU:2._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark4/bin/benchmark -o ./benchmark4/data/test.txt -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=16 --numROB_Entries=64 --num_int_FUs=16 --num_complex_FUs=2 --num_ls_FUs=1 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark4/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+Exiting @ tick 7492630000 because a thread reached the max instruction count
+
+real	0m26,014s
+user	0m25,962s
+sys	0m0,051s
+-------------------------------------------------------
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 12:26:13
+gem5 executing on CPVM, pid 44511
+command line: ../build/X86/gem5.opt -d ./benchmark5/m5out_LSQ:16._ROB:64._IFU:16._CFU:2._FFU:2._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark5/bin/benchmark -o '20 reference.dat 0 1 ./benchmark5/data/100_100_130_cf_a.of' -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=16 --numROB_Entries=64 --num_int_FUs=16 --num_complex_FUs=2 --num_ls_FUs=1 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark5/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+MAIN_printInfo:
+	grid size      : 100 x 100 x 130 = 1.30 * 10^6 Cells
+	nTimeSteps     : 20
+	result file    : reference.dat
+	action         : nothing
+	simulation type: channel flow
+	obstacle file  : ./benchmark5/data/100_100_130_cf_a.of
+
+Exiting @ tick 4679997000 because a thread reached the max instruction count
+
+real	0m23,586s
+user	0m23,538s
+sys	0m0,024s
+-------------------------------------------------------
+./runall.sh 16 64 2 4 2 1
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 12:26:37
+gem5 executing on CPVM, pid 44513
+command line: ../build/X86/gem5.opt -d ./benchmark1/m5out_LSQ:16._ROB:64._IFU:2._CFU:4._FFU:2._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark1/bin/benchmark -o ./benchmark1/data/input.program -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=16 --numROB_Entries=64 --num_int_FUs=2 --num_complex_FUs=4 --num_ls_FUs=1 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark1/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+spec_init
+Loading Input Data
+Duplicating 8070616 bytes
+build/X86/arch/x86/generated/exec-ns.cc.inc:27: warn: instruction 'prefetch_nta' unimplemented
+build/X86/arch/x86/generated/exec-ns.cc.inc:27: warn: instruction 'prefetch_nta' unimplemented
+build/X86/arch/generic/debugfaults.hh:145: warn: MOVNTI: Ignoring non-temporal hint, modeling as cacheable!
+Exiting @ tick 42341163000 because a thread reached the max instruction count
+
+real	3m13,387s
+user	3m12,948s
+sys	0m0,412s
+-------------------------------------------------------
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 12:29:50
+gem5 executing on CPVM, pid 44514
+command line: ../build/X86/gem5.opt -d ./benchmark2/m5out_LSQ:16._ROB:64._IFU:2._CFU:4._FFU:2._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark2/bin/benchmark -o ./benchmark2/data/inp.in -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=16 --numROB_Entries=64 --num_int_FUs=2 --num_complex_FUs=4 --num_ls_FUs=1 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark2/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+
+MCF SPEC CPU2006 version 1.10
+Copyright (c) 1998-2000 Zuse Institut Berlin (ZIB)
+Copyright (c) 2000-2002 Andreas Loebel & ZIB
+Copyright (c) 2003-2005 Andreas Loebel
+
+Exiting @ tick 5012066000 because a thread reached the max instruction count
+
+real	0m29,338s
+user	0m29,258s
+sys	0m0,057s
+-------------------------------------------------------
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 12:30:19
+gem5 executing on CPVM, pid 44520
+command line: ../build/X86/gem5.opt -d ./benchmark3/m5out_LSQ:16._ROB:64._IFU:2._CFU:4._FFU:2._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark3/bin/benchmark -o ./benchmark3/data/bombesin.hmm.new -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=16 --numROB_Entries=64 --num_int_FUs=2 --num_complex_FUs=4 --num_ls_FUs=1 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark3/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+hmmcalibrate -- calibrate HMM search statistics
+HMMER 2.3 (May 2003)
+Copyright (C) 1992-2003 HHMI/Washington University School of Medicine
+Freely distributed under the GNU General Public License (GPL)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+HMM file:                 ./benchmark3/data/bombesin.hmm.new
+Length distribution mean: 325
+Length distribution s.d.: 200
+Number of samples:        5000
+random seed:              1000000000
+histogram(s) saved to:    [not saved]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Exiting @ tick 8210353000 because a thread reached the max instruction count
+
+real	0m30,893s
+user	0m30,777s
+sys	0m0,068s
+-------------------------------------------------------
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 12:30:50
+gem5 executing on CPVM, pid 44522
+command line: ../build/X86/gem5.opt -d ./benchmark4/m5out_LSQ:16._ROB:64._IFU:2._CFU:4._FFU:2._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark4/bin/benchmark -o ./benchmark4/data/test.txt -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=16 --numROB_Entries=64 --num_int_FUs=2 --num_complex_FUs=4 --num_ls_FUs=1 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark4/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+Exiting @ tick 7499076000 because a thread reached the max instruction count
+
+real	0m25,430s
+user	0m25,352s
+sys	0m0,075s
+-------------------------------------------------------
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 12:31:16
+gem5 executing on CPVM, pid 44523
+command line: ../build/X86/gem5.opt -d ./benchmark5/m5out_LSQ:16._ROB:64._IFU:2._CFU:4._FFU:2._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark5/bin/benchmark -o '20 reference.dat 0 1 ./benchmark5/data/100_100_130_cf_a.of' -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=16 --numROB_Entries=64 --num_int_FUs=2 --num_complex_FUs=4 --num_ls_FUs=1 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark5/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+MAIN_printInfo:
+	grid size      : 100 x 100 x 130 = 1.30 * 10^6 Cells
+	nTimeSteps     : 20
+	result file    : reference.dat
+	action         : nothing
+	simulation type: channel flow
+	obstacle file  : ./benchmark5/data/100_100_130_cf_a.of
+
+Exiting @ tick 4687770000 because a thread reached the max instruction count
+
+real	0m23,353s
+user	0m23,281s
+sys	0m0,048s
+-------------------------------------------------------
+./runall.sh 16 64 2 8 2 1
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 12:31:39
+gem5 executing on CPVM, pid 44525
+command line: ../build/X86/gem5.opt -d ./benchmark1/m5out_LSQ:16._ROB:64._IFU:2._CFU:8._FFU:2._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark1/bin/benchmark -o ./benchmark1/data/input.program -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=16 --numROB_Entries=64 --num_int_FUs=2 --num_complex_FUs=8 --num_ls_FUs=1 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark1/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+spec_init
+Loading Input Data
+Duplicating 8070616 bytes
+build/X86/arch/x86/generated/exec-ns.cc.inc:27: warn: instruction 'prefetch_nta' unimplemented
+build/X86/arch/x86/generated/exec-ns.cc.inc:27: warn: instruction 'prefetch_nta' unimplemented
+build/X86/arch/generic/debugfaults.hh:145: warn: MOVNTI: Ignoring non-temporal hint, modeling as cacheable!
+Exiting @ tick 42341163000 because a thread reached the max instruction count
+
+real	3m11,864s
+user	3m11,531s
+sys	0m0,284s
+-------------------------------------------------------
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 12:34:51
+gem5 executing on CPVM, pid 44526
+command line: ../build/X86/gem5.opt -d ./benchmark2/m5out_LSQ:16._ROB:64._IFU:2._CFU:8._FFU:2._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark2/bin/benchmark -o ./benchmark2/data/inp.in -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=16 --numROB_Entries=64 --num_int_FUs=2 --num_complex_FUs=8 --num_ls_FUs=1 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark2/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+
+MCF SPEC CPU2006 version 1.10
+Copyright (c) 1998-2000 Zuse Institut Berlin (ZIB)
+Copyright (c) 2000-2002 Andreas Loebel & ZIB
+Copyright (c) 2003-2005 Andreas Loebel
+
+Exiting @ tick 5012066000 because a thread reached the max instruction count
+
+real	0m29,926s
+user	0m29,873s
+sys	0m0,028s
+-------------------------------------------------------
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 12:35:21
+gem5 executing on CPVM, pid 44528
+command line: ../build/X86/gem5.opt -d ./benchmark3/m5out_LSQ:16._ROB:64._IFU:2._CFU:8._FFU:2._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark3/bin/benchmark -o ./benchmark3/data/bombesin.hmm.new -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=16 --numROB_Entries=64 --num_int_FUs=2 --num_complex_FUs=8 --num_ls_FUs=1 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark3/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+hmmcalibrate -- calibrate HMM search statistics
+HMMER 2.3 (May 2003)
+Copyright (C) 1992-2003 HHMI/Washington University School of Medicine
+Freely distributed under the GNU General Public License (GPL)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+HMM file:                 ./benchmark3/data/bombesin.hmm.new
+Length distribution mean: 325
+Length distribution s.d.: 200
+Number of samples:        5000
+random seed:              1000000000
+histogram(s) saved to:    [not saved]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Exiting @ tick 8210353000 because a thread reached the max instruction count
+
+real	0m30,906s
+user	0m30,830s
+sys	0m0,028s
+-------------------------------------------------------
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 12:35:52
+gem5 executing on CPVM, pid 44529
+command line: ../build/X86/gem5.opt -d ./benchmark4/m5out_LSQ:16._ROB:64._IFU:2._CFU:8._FFU:2._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark4/bin/benchmark -o ./benchmark4/data/test.txt -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=16 --numROB_Entries=64 --num_int_FUs=2 --num_complex_FUs=8 --num_ls_FUs=1 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark4/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+Exiting @ tick 7499076000 because a thread reached the max instruction count
+
+real	0m25,063s
+user	0m25,027s
+sys	0m0,032s
+-------------------------------------------------------
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 12:36:17
+gem5 executing on CPVM, pid 44530
+command line: ../build/X86/gem5.opt -d ./benchmark5/m5out_LSQ:16._ROB:64._IFU:2._CFU:8._FFU:2._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark5/bin/benchmark -o '20 reference.dat 0 1 ./benchmark5/data/100_100_130_cf_a.of' -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=16 --numROB_Entries=64 --num_int_FUs=2 --num_complex_FUs=8 --num_ls_FUs=1 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark5/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+MAIN_printInfo:
+	grid size      : 100 x 100 x 130 = 1.30 * 10^6 Cells
+	nTimeSteps     : 20
+	result file    : reference.dat
+	action         : nothing
+	simulation type: channel flow
+	obstacle file  : ./benchmark5/data/100_100_130_cf_a.of
+
+Exiting @ tick 4687770000 because a thread reached the max instruction count
+
+real	0m23,642s
+user	0m23,564s
+sys	0m0,032s
+-------------------------------------------------------
+./runall.sh 16 64 2 2 4 1
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 12:36:40
+gem5 executing on CPVM, pid 44532
+command line: ../build/X86/gem5.opt -d ./benchmark1/m5out_LSQ:16._ROB:64._IFU:2._CFU:2._FFU:4._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark1/bin/benchmark -o ./benchmark1/data/input.program -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=16 --numROB_Entries=64 --num_int_FUs=2 --num_complex_FUs=2 --num_ls_FUs=1 --num_float_FUs=4
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark1/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+spec_init
+Loading Input Data
+Duplicating 8070616 bytes
+build/X86/arch/x86/generated/exec-ns.cc.inc:27: warn: instruction 'prefetch_nta' unimplemented
+build/X86/arch/x86/generated/exec-ns.cc.inc:27: warn: instruction 'prefetch_nta' unimplemented
+build/X86/arch/generic/debugfaults.hh:145: warn: MOVNTI: Ignoring non-temporal hint, modeling as cacheable!
+Exiting @ tick 42341163000 because a thread reached the max instruction count
+
+real	3m9,231s
+user	3m8,835s
+sys	0m0,344s
+-------------------------------------------------------
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 12:39:50
+gem5 executing on CPVM, pid 44533
+command line: ../build/X86/gem5.opt -d ./benchmark2/m5out_LSQ:16._ROB:64._IFU:2._CFU:2._FFU:4._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark2/bin/benchmark -o ./benchmark2/data/inp.in -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=16 --numROB_Entries=64 --num_int_FUs=2 --num_complex_FUs=2 --num_ls_FUs=1 --num_float_FUs=4
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark2/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+
+MCF SPEC CPU2006 version 1.10
+Copyright (c) 1998-2000 Zuse Institut Berlin (ZIB)
+Copyright (c) 2000-2002 Andreas Loebel & ZIB
+Copyright (c) 2003-2005 Andreas Loebel
+
+Exiting @ tick 5014994000 because a thread reached the max instruction count
+
+real	0m29,282s
+user	0m29,233s
+sys	0m0,024s
+-------------------------------------------------------
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 12:40:19
+gem5 executing on CPVM, pid 44534
+command line: ../build/X86/gem5.opt -d ./benchmark3/m5out_LSQ:16._ROB:64._IFU:2._CFU:2._FFU:4._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark3/bin/benchmark -o ./benchmark3/data/bombesin.hmm.new -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=16 --numROB_Entries=64 --num_int_FUs=2 --num_complex_FUs=2 --num_ls_FUs=1 --num_float_FUs=4
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark3/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+hmmcalibrate -- calibrate HMM search statistics
+HMMER 2.3 (May 2003)
+Copyright (C) 1992-2003 HHMI/Washington University School of Medicine
+Freely distributed under the GNU General Public License (GPL)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+HMM file:                 ./benchmark3/data/bombesin.hmm.new
+Length distribution mean: 325
+Length distribution s.d.: 200
+Number of samples:        5000
+random seed:              1000000000
+histogram(s) saved to:    [not saved]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Exiting @ tick 8210353000 because a thread reached the max instruction count
+
+real	0m31,515s
+user	0m31,409s
+sys	0m0,058s
+-------------------------------------------------------
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 12:40:50
+gem5 executing on CPVM, pid 44536
+command line: ../build/X86/gem5.opt -d ./benchmark4/m5out_LSQ:16._ROB:64._IFU:2._CFU:2._FFU:4._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark4/bin/benchmark -o ./benchmark4/data/test.txt -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=16 --numROB_Entries=64 --num_int_FUs=2 --num_complex_FUs=2 --num_ls_FUs=1 --num_float_FUs=4
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark4/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+Exiting @ tick 7497377000 because a thread reached the max instruction count
+
+real	0m24,802s
+user	0m24,749s
+sys	0m0,048s
+-------------------------------------------------------
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 12:41:15
+gem5 executing on CPVM, pid 44537
+command line: ../build/X86/gem5.opt -d ./benchmark5/m5out_LSQ:16._ROB:64._IFU:2._CFU:2._FFU:4._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark5/bin/benchmark -o '20 reference.dat 0 1 ./benchmark5/data/100_100_130_cf_a.of' -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=16 --numROB_Entries=64 --num_int_FUs=2 --num_complex_FUs=2 --num_ls_FUs=1 --num_float_FUs=4
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark5/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+MAIN_printInfo:
+	grid size      : 100 x 100 x 130 = 1.30 * 10^6 Cells
+	nTimeSteps     : 20
+	result file    : reference.dat
+	action         : nothing
+	simulation type: channel flow
+	obstacle file  : ./benchmark5/data/100_100_130_cf_a.of
+
+Exiting @ tick 4687770000 because a thread reached the max instruction count
+
+real	0m24,457s
+user	0m24,375s
+sys	0m0,057s
+-------------------------------------------------------
+./runall.sh 16 64 2 2 8 1
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 12:41:40
+gem5 executing on CPVM, pid 44539
+command line: ../build/X86/gem5.opt -d ./benchmark1/m5out_LSQ:16._ROB:64._IFU:2._CFU:2._FFU:8._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark1/bin/benchmark -o ./benchmark1/data/input.program -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=16 --numROB_Entries=64 --num_int_FUs=2 --num_complex_FUs=2 --num_ls_FUs=1 --num_float_FUs=8
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark1/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+spec_init
+Loading Input Data
+Duplicating 8070616 bytes
+build/X86/arch/x86/generated/exec-ns.cc.inc:27: warn: instruction 'prefetch_nta' unimplemented
+build/X86/arch/x86/generated/exec-ns.cc.inc:27: warn: instruction 'prefetch_nta' unimplemented
+build/X86/arch/generic/debugfaults.hh:145: warn: MOVNTI: Ignoring non-temporal hint, modeling as cacheable!
+Exiting @ tick 42341163000 because a thread reached the max instruction count
+
+real	3m12,343s
+user	3m11,939s
+sys	0m0,352s
+-------------------------------------------------------
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 12:44:52
+gem5 executing on CPVM, pid 44540
+command line: ../build/X86/gem5.opt -d ./benchmark2/m5out_LSQ:16._ROB:64._IFU:2._CFU:2._FFU:8._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark2/bin/benchmark -o ./benchmark2/data/inp.in -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=16 --numROB_Entries=64 --num_int_FUs=2 --num_complex_FUs=2 --num_ls_FUs=1 --num_float_FUs=8
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark2/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+
+MCF SPEC CPU2006 version 1.10
+Copyright (c) 1998-2000 Zuse Institut Berlin (ZIB)
+Copyright (c) 2000-2002 Andreas Loebel & ZIB
+Copyright (c) 2003-2005 Andreas Loebel
+
+Exiting @ tick 5014994000 because a thread reached the max instruction count
+
+real	0m28,959s
+user	0m28,887s
+sys	0m0,047s
+-------------------------------------------------------
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 12:45:21
+gem5 executing on CPVM, pid 44541
+command line: ../build/X86/gem5.opt -d ./benchmark3/m5out_LSQ:16._ROB:64._IFU:2._CFU:2._FFU:8._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark3/bin/benchmark -o ./benchmark3/data/bombesin.hmm.new -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=16 --numROB_Entries=64 --num_int_FUs=2 --num_complex_FUs=2 --num_ls_FUs=1 --num_float_FUs=8
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark3/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+hmmcalibrate -- calibrate HMM search statistics
+HMMER 2.3 (May 2003)
+Copyright (C) 1992-2003 HHMI/Washington University School of Medicine
+Freely distributed under the GNU General Public License (GPL)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+HMM file:                 ./benchmark3/data/bombesin.hmm.new
+Length distribution mean: 325
+Length distribution s.d.: 200
+Number of samples:        5000
+random seed:              1000000000
+histogram(s) saved to:    [not saved]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Exiting @ tick 8210389000 because a thread reached the max instruction count
+
+real	0m31,170s
+user	0m31,053s
+sys	0m0,066s
+-------------------------------------------------------
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 12:45:52
+gem5 executing on CPVM, pid 44542
+command line: ../build/X86/gem5.opt -d ./benchmark4/m5out_LSQ:16._ROB:64._IFU:2._CFU:2._FFU:8._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark4/bin/benchmark -o ./benchmark4/data/test.txt -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=16 --numROB_Entries=64 --num_int_FUs=2 --num_complex_FUs=2 --num_ls_FUs=1 --num_float_FUs=8
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark4/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+Exiting @ tick 7497377000 because a thread reached the max instruction count
+
+real	0m25,006s
+user	0m24,974s
+sys	0m0,028s
+-------------------------------------------------------
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 12:46:17
+gem5 executing on CPVM, pid 44543
+command line: ../build/X86/gem5.opt -d ./benchmark5/m5out_LSQ:16._ROB:64._IFU:2._CFU:2._FFU:8._LSFU:1 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark5/bin/benchmark -o '20 reference.dat 0 1 ./benchmark5/data/100_100_130_cf_a.of' -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=16 --numROB_Entries=64 --num_int_FUs=2 --num_complex_FUs=2 --num_ls_FUs=1 --num_float_FUs=8
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark5/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+MAIN_printInfo:
+	grid size      : 100 x 100 x 130 = 1.30 * 10^6 Cells
+	nTimeSteps     : 20
+	result file    : reference.dat
+	action         : nothing
+	simulation type: channel flow
+	obstacle file  : ./benchmark5/data/100_100_130_cf_a.of
+
+Exiting @ tick 4687770000 because a thread reached the max instruction count
+
+real	0m24,657s
+user	0m24,566s
+sys	0m0,068s
+-------------------------------------------------------
+./runall.sh 16 64 2 2 2 2
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 12:46:42
+gem5 executing on CPVM, pid 44545
+command line: ../build/X86/gem5.opt -d ./benchmark1/m5out_LSQ:16._ROB:64._IFU:2._CFU:2._FFU:2._LSFU:2 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark1/bin/benchmark -o ./benchmark1/data/input.program -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=16 --numROB_Entries=64 --num_int_FUs=2 --num_complex_FUs=2 --num_ls_FUs=2 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark1/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+spec_init
+Loading Input Data
+Duplicating 8070616 bytes
+build/X86/arch/x86/generated/exec-ns.cc.inc:27: warn: instruction 'prefetch_nta' unimplemented
+build/X86/arch/x86/generated/exec-ns.cc.inc:27: warn: instruction 'prefetch_nta' unimplemented
+build/X86/arch/generic/debugfaults.hh:145: warn: MOVNTI: Ignoring non-temporal hint, modeling as cacheable!
+Exiting @ tick 45434257000 because a thread reached the max instruction count
+
+real	3m10,155s
+user	3m9,779s
+sys	0m0,341s
+-------------------------------------------------------
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 12:49:52
+gem5 executing on CPVM, pid 44548
+command line: ../build/X86/gem5.opt -d ./benchmark2/m5out_LSQ:16._ROB:64._IFU:2._CFU:2._FFU:2._LSFU:2 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark2/bin/benchmark -o ./benchmark2/data/inp.in -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=16 --numROB_Entries=64 --num_int_FUs=2 --num_complex_FUs=2 --num_ls_FUs=2 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark2/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+
+MCF SPEC CPU2006 version 1.10
+Copyright (c) 1998-2000 Zuse Institut Berlin (ZIB)
+Copyright (c) 2000-2002 Andreas Loebel & ZIB
+Copyright (c) 2003-2005 Andreas Loebel
+
+Exiting @ tick 4970208000 because a thread reached the max instruction count
+
+real	0m29,835s
+user	0m29,761s
+sys	0m0,051s
+-------------------------------------------------------
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 12:50:22
+gem5 executing on CPVM, pid 44549
+command line: ../build/X86/gem5.opt -d ./benchmark3/m5out_LSQ:16._ROB:64._IFU:2._CFU:2._FFU:2._LSFU:2 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark3/bin/benchmark -o ./benchmark3/data/bombesin.hmm.new -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=16 --numROB_Entries=64 --num_int_FUs=2 --num_complex_FUs=2 --num_ls_FUs=2 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark3/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+hmmcalibrate -- calibrate HMM search statistics
+HMMER 2.3 (May 2003)
+Copyright (C) 1992-2003 HHMI/Washington University School of Medicine
+Freely distributed under the GNU General Public License (GPL)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+HMM file:                 ./benchmark3/data/bombesin.hmm.new
+Length distribution mean: 325
+Length distribution s.d.: 200
+Number of samples:        5000
+random seed:              1000000000
+histogram(s) saved to:    [not saved]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Exiting @ tick 8165646000 because a thread reached the max instruction count
+
+real	0m31,937s
+user	0m31,852s
+sys	0m0,040s
+-------------------------------------------------------
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 12:50:54
+gem5 executing on CPVM, pid 44551
+command line: ../build/X86/gem5.opt -d ./benchmark4/m5out_LSQ:16._ROB:64._IFU:2._CFU:2._FFU:2._LSFU:2 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark4/bin/benchmark -o ./benchmark4/data/test.txt -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=16 --numROB_Entries=64 --num_int_FUs=2 --num_complex_FUs=2 --num_ls_FUs=2 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark4/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+Exiting @ tick 7617821000 because a thread reached the max instruction count
+
+real	0m25,972s
+user	0m25,906s
+sys	0m0,064s
+-------------------------------------------------------
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 12:51:20
+gem5 executing on CPVM, pid 44552
+command line: ../build/X86/gem5.opt -d ./benchmark5/m5out_LSQ:16._ROB:64._IFU:2._CFU:2._FFU:2._LSFU:2 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark5/bin/benchmark -o '20 reference.dat 0 1 ./benchmark5/data/100_100_130_cf_a.of' -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=16 --numROB_Entries=64 --num_int_FUs=2 --num_complex_FUs=2 --num_ls_FUs=2 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark5/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+MAIN_printInfo:
+	grid size      : 100 x 100 x 130 = 1.30 * 10^6 Cells
+	nTimeSteps     : 20
+	result file    : reference.dat
+	action         : nothing
+	simulation type: channel flow
+	obstacle file  : ./benchmark5/data/100_100_130_cf_a.of
+
+Exiting @ tick 4679388000 because a thread reached the max instruction count
+
+real	0m24,390s
+user	0m24,313s
+sys	0m0,051s
+-------------------------------------------------------
+./runall.sh 16 64 2 2 2 4
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 12:51:44
+gem5 executing on CPVM, pid 44554
+command line: ../build/X86/gem5.opt -d ./benchmark1/m5out_LSQ:16._ROB:64._IFU:2._CFU:2._FFU:2._LSFU:4 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark1/bin/benchmark -o ./benchmark1/data/input.program -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=16 --numROB_Entries=64 --num_int_FUs=2 --num_complex_FUs=2 --num_ls_FUs=4 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark1/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+spec_init
+Loading Input Data
+Duplicating 8070616 bytes
+build/X86/arch/x86/generated/exec-ns.cc.inc:27: warn: instruction 'prefetch_nta' unimplemented
+build/X86/arch/x86/generated/exec-ns.cc.inc:27: warn: instruction 'prefetch_nta' unimplemented
+build/X86/arch/generic/debugfaults.hh:145: warn: MOVNTI: Ignoring non-temporal hint, modeling as cacheable!
+Exiting @ tick 45060086000 because a thread reached the max instruction count
+
+real	3m7,926s
+user	3m7,508s
+sys	0m0,388s
+-------------------------------------------------------
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 12:54:52
+gem5 executing on CPVM, pid 44555
+command line: ../build/X86/gem5.opt -d ./benchmark2/m5out_LSQ:16._ROB:64._IFU:2._CFU:2._FFU:2._LSFU:4 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark2/bin/benchmark -o ./benchmark2/data/inp.in -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=16 --numROB_Entries=64 --num_int_FUs=2 --num_complex_FUs=2 --num_ls_FUs=4 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark2/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+
+MCF SPEC CPU2006 version 1.10
+Copyright (c) 1998-2000 Zuse Institut Berlin (ZIB)
+Copyright (c) 2000-2002 Andreas Loebel & ZIB
+Copyright (c) 2003-2005 Andreas Loebel
+
+Exiting @ tick 4976279000 because a thread reached the max instruction count
+
+real	0m29,048s
+user	0m29,002s
+sys	0m0,025s
+-------------------------------------------------------
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 12:55:21
+gem5 executing on CPVM, pid 44556
+command line: ../build/X86/gem5.opt -d ./benchmark3/m5out_LSQ:16._ROB:64._IFU:2._CFU:2._FFU:2._LSFU:4 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark3/bin/benchmark -o ./benchmark3/data/bombesin.hmm.new -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=16 --numROB_Entries=64 --num_int_FUs=2 --num_complex_FUs=2 --num_ls_FUs=4 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark3/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+hmmcalibrate -- calibrate HMM search statistics
+HMMER 2.3 (May 2003)
+Copyright (C) 1992-2003 HHMI/Washington University School of Medicine
+Freely distributed under the GNU General Public License (GPL)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+HMM file:                 ./benchmark3/data/bombesin.hmm.new
+Length distribution mean: 325
+Length distribution s.d.: 200
+Number of samples:        5000
+random seed:              1000000000
+histogram(s) saved to:    [not saved]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Exiting @ tick 8087838000 because a thread reached the max instruction count
+
+real	0m31,269s
+user	0m31,174s
+sys	0m0,047s
+-------------------------------------------------------
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 12:55:52
+gem5 executing on CPVM, pid 44557
+command line: ../build/X86/gem5.opt -d ./benchmark4/m5out_LSQ:16._ROB:64._IFU:2._CFU:2._FFU:2._LSFU:4 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark4/bin/benchmark -o ./benchmark4/data/test.txt -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=16 --numROB_Entries=64 --num_int_FUs=2 --num_complex_FUs=2 --num_ls_FUs=4 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark4/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+Exiting @ tick 7480537000 because a thread reached the max instruction count
+
+real	0m25,418s
+user	0m25,362s
+sys	0m0,052s
+-------------------------------------------------------
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/base/remote_gdb.cc:381: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Dec 19 2023 11:16:18
+gem5 started Dec 19 2023 12:56:18
+gem5 executing on CPVM, pid 44558
+command line: ../build/X86/gem5.opt -d ./benchmark5/m5out_LSQ:16._ROB:64._IFU:2._CFU:2._FFU:2._LSFU:4 ../configs/cs425_pa2/cs425_pa2.py -c ./benchmark5/bin/benchmark -o '20 reference.dat 0 1 ./benchmark5/data/100_100_130_cf_a.of' -I 5000000 --cpu-type=O3CPU --l1i_size=64kB --l1i_assoc=4 --l1d_size=64kB --l1d_assoc=4 --l2_size=256kB --l2_assoc=8 --bp-type=TournamentBP --btb_entries=1024 --LSQ_Entries=16 --numROB_Entries=64 --num_int_FUs=2 --num_complex_FUs=2 --num_ls_FUs=4 --num_float_FUs=2
+
+info: Standard input is not a terminal, disabling listeners.
+/home/chris/HY425/prog_assignment2/gem5/hy425
+Beginning simulation!
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.hh:1015: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/chris/HY425/prog_assignment2/gem5/hy425/benchmark5/bin/benchmark'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+MAIN_printInfo:
+	grid size      : 100 x 100 x 130 = 1.30 * 10^6 Cells
+	nTimeSteps     : 20
+	result file    : reference.dat
+	action         : nothing
+	simulation type: channel flow
+	obstacle file  : ./benchmark5/data/100_100_130_cf_a.of
+
+Exiting @ tick 4667829000 because a thread reached the max instruction count
+
+real	0m23,196s
+user	0m23,119s
+sys	0m0,047s
+-------------------------------------------------------
