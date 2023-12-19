@@ -30,6 +30,9 @@
 # Default: 1
 # Today: 3
 
+# Fist run:
+# Start: Tue 11:35
+
 # The first step is run each value of each parameter whiel keeping the others in default value.
 first_step:
 	./runall.sh 16 64 2 2 2 1
