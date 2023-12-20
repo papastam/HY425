@@ -30,9 +30,6 @@
 # Default: 1
 # Today: 3
 
-# Fist run:
-# Start: Tue 11:35
-
 # The first step is run each value of each parameter whiel keeping the others in default value.
 first_step:
 	./runall.sh 16 64 2 2 2 1
@@ -57,3 +54,44 @@ first_step:
 
 	./runall.sh 16 64 2 2 2 2
 	./runall.sh 16 64 2 2 2 4
+
+# The best values of each parameter are:
+# (The parentheses indicate the values preformed the same as the previous one, therefore they will not be tested)
+# 
+# LSQ_ENTRIES: 128
+# ROB_ENTRIES: 128, 256, (512)
+# FUINT_NUM: 4, 8, (16)
+# FUCOM_NUM: 4, (8)
+# FUFP_NUM: 2, 4, (8)
+# FULS_NUM: 2, 4
+
+# Second step:
+# Run tests with the combinations of the best values of each parameter.
+second_step:
+	# 128 LSQ_ENTRIES
+	./runall.sh 128 128 4 4 2 2
+	./runall.sh 128 128 4 4 2 4
+	
+	# 4 FUFP_NUM
+	./runall.sh 128 128 4 4 4 2
+	./runall.sh 128 128 4 4 4 4
+
+	# 8 FUINT_NUM
+	./runall.sh 128 128 8 4 2 2
+	./runall.sh 128 128 8 4 2 4
+	./runall.sh 128 128 8 4 4 2
+	./runall.sh 128 128 8 4 4 4
+
+	# 256 ROB_ENTRIES
+	./runall.sh 128 256 4 4 2 2
+	./runall.sh 128 256 4 4 2 4
+
+	# 4 FUFP_NUM
+	./runall.sh 128 256 4 4 4 2
+	./runall.sh 128 256 4 4 4 4
+
+	# 8 FUINT_NUM
+	./runall.sh 128 256 8 4 2 2	
+	./runall.sh 128 256 8 4 2 4
+	./runall.sh 128 256 8 4 4 2
+	./runall.sh 128 256 8 4 4 4
