@@ -95,3 +95,60 @@ second_step:
 	./runall.sh 128 256 8 4 2 4
 	./runall.sh 128 256 8 4 4 2
 	./runall.sh 128 256 8 4 4 4
+
+# Explore with the values going up to todays values of each parameter.
+mip_exploration:
+	./runall.sh 128 128 4 2 2 1
+	./runall.sh 128 128 4 2 2 3
+
+	./runall.sh 128 128 4 2 3 1
+	./runall.sh 128 128 4 2 3 3
+
+	# Changed the value of FUINT_NUM to 5
+	./runall.sh 128 128 5 2 2 1
+	./runall.sh 128 128 5 2 2 3
+
+	./runall.sh 128 128 5 2 3 1
+	./runall.sh 128 128 5 2 3 3
+
+	# Changed the value of ROB_ENTRIES to 384
+	./runall.sh 128 384 4 2 2 1
+	./runall.sh 128 384 4 2 2 3
+
+	./runall.sh 128 384 4 2 3 1
+	./runall.sh 128 384 4 2 3 3
+
+	# Changed the value of FUINT_NUM to 5
+	./runall.sh 128 384 5 2 2 1
+	./runall.sh 128 384 5 2 2 3
+
+	./runall.sh 128 384 5 2 3 1
+	./runall.sh 128 384 5 2 3 3
+
+	# Changed the value of LSQ_ENTRIES to 64
+	./runall.sh 64 384 5 2 2 1
+	./runall.sh 64 384 5 2 2 3
+
+	./runall.sh 64 384 5 2 3 1
+	./runall.sh 64 384 5 2 3 3
+
+	# Changed the value of FUINT_NUM to 5
+	./runall.sh 64 384 5 2 2 1
+	./runall.sh 64 384 5 2 2 3
+
+	./runall.sh 64 384 5 2 3 1
+	./runall.sh 64 384 5 2 3 3
+
+	# Changed the value of ROB_ENTRIES to 384
+	./runall.sh 64 384 5 2 2 1
+	./runall.sh 64 384 5 2 2 3
+
+	./runall.sh 64 384 5 2 3 1
+	./runall.sh 64 384 5 2 3 3
+
+	# Changed the value of FUINT_NUM to 5
+	./runall.sh 64 384 5 2 2 1
+	./runall.sh 64 384 5 2 2 3
+
+	./runall.sh 64 384 5 2 3 1
+	./runall.sh 64 384 5 2 3 3
