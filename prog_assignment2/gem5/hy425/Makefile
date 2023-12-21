@@ -97,58 +97,49 @@ second_step:
 	./runall.sh 128 256 8 4 4 4
 
 # Explore with the values going up to todays values of each parameter.
+# LSQ: 128
+# ROB: 128, 256
+# FUINT: 4, 5
+# FUCOM: 2
+# FUFP: 2, 3
+# FULS: 2, 3
+# This run totals to 16 runs
 mip_exploration:
-	./runall.sh 128 128 4 2 2 1
+	# 128 LSQ_ENTRIES
+	# 128 ROB_ENTRIES
+	# 4 FUINT_NUM
+	# 2 FUCOM_NUM
+	# 2 FUFP_NUM
+	./runall.sh 128 128 4 2 2 2
 	./runall.sh 128 128 4 2 2 3
 
-	./runall.sh 128 128 4 2 3 1
+	# 3 FUFP_NUM
+	./runall.sh 128 128 4 2 3 2
 	./runall.sh 128 128 4 2 3 3
 
-	# Changed the value of FUINT_NUM to 5
-	./runall.sh 128 128 5 2 2 1
+	# 5 FUINT_NUM
+	./runall.sh 128 128 5 2 2 2
 	./runall.sh 128 128 5 2 2 3
 
-	./runall.sh 128 128 5 2 3 1
+	# 3 FUFP_NUM
+	./runall.sh 128 128 5 2 3 2
 	./runall.sh 128 128 5 2 3 3
 
-	# Changed the value of ROB_ENTRIES to 384
-	./runall.sh 128 384 4 2 2 1
-	./runall.sh 128 384 4 2 2 3
+	# 256 ROB_ENTRIES
+	# 4 FUINT_NUM
+	# 2 FUCOM_NUM
+	# 2 FUFP_NUM
+	./runall.sh 128 256 4 2 2 2
+	./runall.sh 128 256 4 2 2 3
 
-	./runall.sh 128 384 4 2 3 1
-	./runall.sh 128 384 4 2 3 3
+	# 3 FUFP_NUM
+	./runall.sh 128 256 4 2 3 2
+	./runall.sh 128 256 4 2 3 3
 
-	# Changed the value of FUINT_NUM to 5
-	./runall.sh 128 384 5 2 2 1
-	./runall.sh 128 384 5 2 2 3
+	# 5 FUINT_NUM
+	./runall.sh 128 256 5 2 2 2
+	./runall.sh 128 256 5 2 2 3
 
-	./runall.sh 128 384 5 2 3 1
-	./runall.sh 128 384 5 2 3 3
-
-	# Changed the value of LSQ_ENTRIES to 64
-	./runall.sh 64 384 5 2 2 1
-	./runall.sh 64 384 5 2 2 3
-
-	./runall.sh 64 384 5 2 3 1
-	./runall.sh 64 384 5 2 3 3
-
-	# Changed the value of FUINT_NUM to 5
-	./runall.sh 64 384 5 2 2 1
-	./runall.sh 64 384 5 2 2 3
-
-	./runall.sh 64 384 5 2 3 1
-	./runall.sh 64 384 5 2 3 3
-
-	# Changed the value of ROB_ENTRIES to 384
-	./runall.sh 64 384 5 2 2 1
-	./runall.sh 64 384 5 2 2 3
-
-	./runall.sh 64 384 5 2 3 1
-	./runall.sh 64 384 5 2 3 3
-
-	# Changed the value of FUINT_NUM to 5
-	./runall.sh 64 384 5 2 2 1
-	./runall.sh 64 384 5 2 2 3
-
-	./runall.sh 64 384 5 2 3 1
-	./runall.sh 64 384 5 2 3 3
+	# 3 FUFP_NUM
+	./runall.sh 128 256 5 2 3 2
+	./runall.sh 128 256 5 2 3 3
