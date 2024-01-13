@@ -1,4 +1,4 @@
-# Computer Architecture [HY425](https://www.csd.uoc.gr/~hy425/)
+# Computer Architecture _([HY425](https://www.csd.uoc.gr/~hy425/))_
 
 During the course of Computer Architecture, we were assigned a total of 4 assignments, 2 of them were theoretical and the other 2 were programming assignments. 
 
